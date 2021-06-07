@@ -23,7 +23,7 @@ body {
 }
 
 .container-2 {
-    padding-top: 200px;
+    margin-top: 80px;
     padding-left: 100px;
     position: absolute;
     top: 50%;
@@ -122,12 +122,11 @@ img[alt=logo-small] {
 
 .fas.fa-arrow-down {
     font-size: 40px;
-    
 }
 
 #jumbo-img{
     height: 500px;
-    margin-top: -28px;
+    margin-top: -26px;
     background-image: url(../img/jumbo.png);
     background-size: 80%;
     background-repeat: no-repeat;
