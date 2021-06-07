@@ -70,7 +70,7 @@ a.no-decoration:hover {
 header .top-bar {
     height: 70px;
     line-height: 70px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 img[alt=logo-small] {
@@ -105,22 +105,20 @@ img[alt=logo-small] {
     font-family: 'Open Sans', sans-serif;
 }
 
-.jumbotron div.col.w-40 p:first-child {
+.jumbotron div.col.w-30 p:first-child {
     margin-bottom: 30px;
 }
 
-.jumbotron div.col.w-40 p:last-child {
-    margin-top: 20px;
+.jumbotron div.col.w-30 p:nth-child(3) {
     font-size: 12px;
+    margin-bottom: 40px;
 }
 
 #jumbo-btn {
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .fas.fa-arrow-down {
-    margin-top: 30px;
     font-size: 30px;
 }
 
