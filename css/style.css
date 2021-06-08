@@ -418,10 +418,105 @@ main {
 
 /*Customers logo grid*/
 .container-4 {
-    border: 5px solid black;
-    height: 400px;
-    background-color: chartreuse;
+    margin-top: 40px;
 }
+
+.w-square {
+    width: 500px;
+    height: 500px;
+}
+
+.w-middle-square {
+    width: calc(100% - 1000px);
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.square {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+
+.square:hover {
+    border: 15px solid rgba(255, 255, 255, 0.5);
+}
+
+.grid-1, .grid-2 {
+    position: relative;
+}
+
+.container-4 div.grid-1 .square:first-child {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    background-color: #a2d39b;
+}
+
+.container-4 div.grid-1 .square:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0; 
+    background-color: #61082b;
+}
+
+.container-4 div.grid-1 .square:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    background-color: #0093ce;
+}
+
+.container-4 div.grid-1 .square:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    background-color: #ff1c1c;
+}
+
+
+.container-4 div.grid-2 .square:first-child {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    background-color: #d5001f;
+}
+
+.container-4 div.grid-2 .square:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0; 
+    background-color: #b4d0e7;
+}
+
+.container-4 div.grid-2 .square:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    background-color: #0d2481;
+}
+
+.container-4 div.grid-2 .square:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    background-color: #ffd830;
+}
+
+
+
+
+
+
+
+
+
+/*color*/
+
+#d5001f
+
+
+
 
 
 
