@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*Utilities*/
+/****************** Utilities *******************/
 
 .clearfix::after {
     content: '';
@@ -65,7 +65,7 @@ a.no-decoration:hover {
 }
 
 
-/*Header*/ 
+/*************** Header ****************/ 
 header .top-bar {
     height: 70px;
     line-height: 70px;
@@ -92,6 +92,8 @@ img[alt=logo-small] {
     margin-right: 50px;
     vertical-align: middle;
 }
+
+/*Jumbotron section*/
 
 .jumbotron {
     height: 700px;
@@ -146,7 +148,7 @@ img[alt=logo-small] {
 }
 
 
-/*MAIN*/ 
+/**************** MAIN ****************/ 
 
 main {
     margin-top: 200px;
@@ -165,6 +167,8 @@ main {
     font-size: 38px;
     margin-bottom: 50px;
 }
+
+/*Radio buttons section*/
 
 .radio-btn-area {
     line-height: 25px;
@@ -299,6 +303,39 @@ main {
 .fas.fa-check {
     color: #0061ff;
 }
+
+/*Enterprise section*/ 
+.enterprise {
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+
+.enterprise .c-row {
+    border: 1px solid lightgray;
+    border-bottom: 0;
+}
+
+.enterprise-info {
+    padding: 30px;
+    border: 1px solid lightgrey;
+}
+
+.enterprise-info h3, h4, p {
+    margin-bottom: 20px;
+}
+
+.enterprise-info h3 {
+    font-size: 25px;
+}
+
+.enterprise-info h4 {
+    font-size: 18px;
+}
+
+.enterprise-info p {
+    font-size: 14px;
+}
+
 
 
 
