@@ -179,10 +179,12 @@ main {
     border: 5px solid #0061ff;
 }
 
+/*plan section*/
+
 .c-lateral {
     width: 320px;
     border: 1px solid lightgray;
-    text-align: center;
+    
 }
 
 .c-middle {
@@ -190,21 +192,61 @@ main {
     margin-left: 70px;
     margin-right: 70px;;
     border: 1px solid lightgray;
-    text-align: center;
 }
 
 .c-row {
     line-height: 50px;
+    text-align: center;
 }
 
 .c-row div {
     border-bottom: 0;
 }
 
-.far.fa-user, .far.fa-building {
+.far.fa-user, .far.fa-building, 
+.far.fa-folder, .fas.fa-pencil-alt {
     margin-right: 5px;
 }
 
+.plan {
+    padding: 30px;
+}
+
+.plan-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.plan-price {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.plan-splitting {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.plan-features {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.plan-features ul {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.plan-features ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.li-icon {
+    margin-bottom: 15px;
+    text-indent: -10px;
+}
 
 
 
