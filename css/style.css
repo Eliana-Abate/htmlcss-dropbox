@@ -167,14 +167,11 @@ img[alt=logo-small] {
 
 main {
     margin-top: 200px;
-    position: relative;
 }
 
 .container-3 {
     width: 1100px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto;
 }
 
 .container-3 h2 {
@@ -419,7 +416,12 @@ main {
  }
 
 
-  /*Customers partnership grid*/
+/*Customers logo grid*/
+.container-4 {
+    border: 5px solid black;
+    height: 400px;
+    background-color: chartreuse;
+}
 
 
 
