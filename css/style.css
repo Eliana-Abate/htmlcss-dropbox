@@ -373,12 +373,16 @@ main {
 }
 
 /*Operation grid section*/
-.img-row-1 {
-    margin-bottom: 40px;
+.img-row-1, .img-row-2 {
+    margin-bottom: 30px;
 }
 
+.text-row {
+    margin-bottom: 100px;
+}
 .img-row-size {
     width: 100%;
+    object-position: center;
 }
 
  .img-margin {
@@ -387,6 +391,15 @@ main {
 
  .operations-grid div.col.c-lateral, .operations-grid div.col.c-middle {
      border: 0;
+ }
+
+ .text-row h3 {
+     font-size: 25px;
+     margin-bottom: 20px;
+ }
+
+ #underline-text {
+     text-decoration: underline;
  }
 
 
