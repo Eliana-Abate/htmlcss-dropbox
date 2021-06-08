@@ -49,8 +49,19 @@ a.no-decoration:hover {
     text-align: center;
 } 
 
+.blue-btn.btn-block {
+    display: block;
+}
+
 .text-right {
     text-align: right;
+}
+
+.far.fa-user, .far.fa-building, 
+.far.fa-folder, .fas.fa-pencil-alt, 
+.far.fa-user-plus, 
+.far.fa-smile, .fas.fa-check {
+    margin-right: 5px;
 }
 
 
@@ -203,13 +214,9 @@ main {
     border-bottom: 0;
 }
 
-.far.fa-user, .far.fa-building, 
-.far.fa-folder, .fas.fa-pencil-alt {
-    margin-right: 5px;
-}
-
 .plan {
     padding: 30px;
+    height: 900px;
 }
 
 .plan-title {
@@ -224,6 +231,7 @@ main {
 
 .plan-splitting {
     color: gray;
+    font-size: 14px;
     margin-bottom: 15px;
 }
 
@@ -248,14 +256,47 @@ main {
     text-indent: -10px;
 }
 
-.plan-btn {
-    position: relative;
-    height: 100px;
-    background-color: greenyellow;
+.buy-link {
+    color: #0061ff;
+    margin-left: 5px;
 }
 
+.plan-btn {
+    margin-bottom: 40px;
+}
+.plan-btn p {
+    font-size: 14px;
+    margin-top: 30px;
+}
 
-.buy-link {
+.small-hr {
+    width: 60px;
+    color: lightgray;
+}
+
+.plan-summary {
+    margin-top: 40px;
+}
+
+.plan-summary h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.plan-summary ul {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.li-summary {
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-indent: -10px;
+}
+
+.fas.fa-check {
     color: #0061ff;
 }
 
