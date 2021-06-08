@@ -57,6 +57,13 @@ a.no-decoration:hover {
     text-align: center;
 } 
 
+.white-btn {
+    color: black;
+    border: 1px solid black;
+    padding: 8px 25px;
+    text-align: center;
+}
+
 .blue-btn.btn-block {
     display: block;
 }
@@ -328,7 +335,7 @@ main {
     border: 1px solid lightgrey;
 }
 
-.enterprise-info h3, h4, p {
+.enterprise-info h3, .enterprise-info h4, .enterprise-info p {
     margin-bottom: 20px;
 }
 
@@ -346,19 +353,22 @@ main {
 
 
 /*Partner research section*/
-
-.partner {
-    height: 500px;
-    background-color: lightsalmon;
-    border: 1px solid black;
+#partner-img{
+    width: 95%;
+}
+.partner-info {
+    padding: 80px 30px;
+}
+.partner-info h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
 }
 
-img[alt=partner-img] {
-    object-fit: contain;
-    object-position: center;
-    
-
+.partner-info p {
+    margin-bottom: 40px;
 }
+
+
 
 
 
