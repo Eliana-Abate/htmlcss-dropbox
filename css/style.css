@@ -321,7 +321,7 @@ main {
 
 /*Enterprise section*/ 
 .enterprise {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 150px;
 }
 
@@ -353,11 +353,15 @@ main {
 
 
 /*Partner research section*/
+.partner {
+    margin-bottom: 100px;
+}
+
 #partner-img{
-    width: 95%;
+    width: 98%;
 }
 .partner-info {
-    padding: 80px 30px;
+    padding: 80px 40px;
 }
 .partner-info h3 {
     font-size: 25px;
@@ -367,6 +371,27 @@ main {
 .partner-info p {
     margin-bottom: 40px;
 }
+
+/*Operation grid section*/
+.img-row-1 {
+    margin-bottom: 40px;
+}
+
+.img-row-size {
+    width: 100%;
+}
+
+ .img-margin {
+     margin-top: -15px;
+ }
+
+ .operations-grid div.col.c-lateral, .operations-grid div.col.c-middle {
+     border: 0;
+ }
+
+
+
+
 
 
 
