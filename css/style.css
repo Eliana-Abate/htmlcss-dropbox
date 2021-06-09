@@ -544,24 +544,20 @@ main {
     transform: translate(-50%, -50%);
 }
 
-.last-invitation div.col.w-60 {
-    padding: 0 50px;
-}
-
 
 .last-invitation h2 {
     color: #61082b;
     margin-bottom: 0;
 }
 
-.last-invitation div.col.w-40 {
+.last-invitation div.col.w-50 {
     height: 100px;
 }
 
-.last-invitation div.col.w-40 a {
+.last-invitation div.col.w-50 a {
     position: relative;
     top: 16%;
-    left: 50%;
+    left: 45%;
     border: 0;
     padding: 12px 50px;
 }
