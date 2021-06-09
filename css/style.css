@@ -567,6 +567,42 @@ main {
 }
 
 
+/*Question section*/
+#question .container-3 {
+    padding: 100px 0;
+}
+
+#question .container-3 h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.question-slot {
+    height: 80px;
+    line-height: 80px;
+    border-top: 1px solid lightgray;
+}
+
+#b-bottom {
+    border-bottom: 1px solid lightgray;
+}
+
+.question-slot h5 {
+    font-size: 16px;
+}
+
+.question-slot .fas.fa-chevron-down {
+    display: inline-block;
+    position: relative;
+    left: 350px;
+}
+
+
+
+/********************* FOOTER *******************/ 
+
+
+
 
 
 
