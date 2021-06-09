@@ -76,7 +76,8 @@ a.no-decoration:hover {
 .far.fa-user, .far.fa-building, 
 .far.fa-folder, .fas.fa-pencil-alt, 
 .far.fa-user-plus, 
-.far.fa-smile, .fas.fa-check {
+.far.fa-smile, .fas.fa-check, 
+.fas.fa-globe-americas {
     margin-right: 5px;
 }
 
@@ -596,11 +597,55 @@ main {
 
 
 /********************* FOOTER *******************/ 
+footer {
+    background-color: black;
+    padding: 100px 0;
+}
 
+.container-5 {
+    width: 1400px;
+    margin: 0 auto;
+    padding-left: 50px;
+    color: white;
+}
 
+.c-footer {
+    width: calc(1350px / 5)
+}
 
+.container-5 div.col.c-footer h5 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
 
+.container-5 div.col.c-footer ul {
+    display: inline-block;
+    margin-bottom: 120px;
+}
 
+.container-5 div.col.c-footer ul li {
+    list-style-type: none;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+#long-hr {
+    width: 140px;
+}
+
+#language-select {
+    color: #666666;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.fas.fa-globe-americas {
+    font-size: 20px;
+}
+
+.fas.fa-caret-up {
+    margin-left: 5px;
+}
 
 
 
